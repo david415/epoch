@@ -1,0 +1,17 @@
+[package]
+name = "epoch"
+version = "0.0.0"
+authors = ["David Stainton <dawuud@riseup.net>"]
+description = "Epoch time calculations"
+homepage = "https://github.com/david415/epoch"
+repository = "https://github.com/david415/epoch"
+documentation = "https://docs.rs/epoch/"
+readme = "README.md"
+keywords = ["time", "epoch", "clock"]
+license = "AGPL-3.0-only"
+
+
+[dependencies]
+chrono = "0.4.6"
+
+[dev-dependencies]
