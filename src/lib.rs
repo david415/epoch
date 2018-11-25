@@ -43,6 +43,10 @@ impl Clock {
         }
     }
 
+    pub fn period(&self) -> u64 {
+        self.cfg.period
+    }
+
     pub fn new_katzenpost() -> Self {
         Clock {
             cfg: Config {
