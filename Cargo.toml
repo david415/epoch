@@ -1,6 +1,6 @@
 [package]
 name = "epoch"
-version = "0.0.0"
+version = "0.0.1"
 authors = ["David Stainton <dawuud@riseup.net>"]
 description = "Epoch time calculations"
 homepage = "https://github.com/david415/epoch"

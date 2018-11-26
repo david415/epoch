@@ -10,7 +10,7 @@ for a given epoch duration.
 To import `epoch`, add the following to the dependencies section of
 your project's `Cargo.toml`:
 ```toml
-epoch = "^0.0.0"
+epoch = "^0.0.1"
 ```
 Then import the crate as:
 ```rust,no_run
