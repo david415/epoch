@@ -21,17 +21,20 @@ use std::time::{SystemTime, UNIX_EPOCH};
 use chrono::{NaiveDate, Utc, DateTime};
 
 
+#[derive(PartialEq, Debug, Clone, Default)]
 pub struct Time {
     pub epoch: u64,
     pub elapsed: u64,
     pub till: u64,
 }
 
+#[derive(PartialEq, Debug, Clone, Default)]
 pub struct Config {
     pub epoch: u64,
     pub period: u64,
 }
 
+#[derive(PartialEq, Debug, Clone, Default)]
 pub struct Clock {
     cfg: Config,
 }
